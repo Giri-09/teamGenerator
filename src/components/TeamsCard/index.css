@@ -1,0 +1,29 @@
+.team-card {
+  background-color: #585076;
+  border: solid 1px #ffffff;
+  border-radius: 12px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  padding-left: 30px;
+  min-height: 200px;
+}
+.team-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.names-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.names-para {
+  color: #d4d2db;
+  font-weight: 400;
+  font-size: 17px;
+}

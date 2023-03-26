@@ -1,0 +1,85 @@
+.home-background {
+  background-color: #150b3e;
+  min-height: 100vh;
+  padding: 20px;
+}
+.form-card {
+  width: 60%;
+}
+.heading {
+  color: #d4d2db;
+  font-weight: 700;
+  font-size: 35px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.number-input {
+  width: 250px;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid;
+  outline: none;
+  background-color: #c4c4c4;
+}
+.number-input-container {
+  display: flex;
+  align-items: center;
+}
+.number-label {
+  color: #585076;
+  font-weight: 600;
+  font-size: 18px;
+}
+.names-input {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+  border-radius: 3px;
+  outline: none;
+  width: 70%;
+  background-color: #c4c4c4;
+}
+.names-input-label {
+  color: #585076;
+  font-weight: 600;
+  font-size: 18px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.button {
+  background-color: #f9fbfe;
+  padding: 10px;
+  width: 120px;
+  color: #382f5a;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  margin: 6px;
+  font-size: 15px;
+}
+.empty-text {
+  color: red;
+}
+.horizontal-line {
+  border: solid 1px #94a3b8;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .form-card {
+    width: 100%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
